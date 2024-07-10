@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@400..900&display=swap');
+
+body{
+    background-color: white;
+    font-family: "Cinzel";
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.logo{
+    width: 100px;
+    padding-top: 10px;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+header{
+    background-color:#FAF2EB;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    color: #B5763C;
+    text-decoration:none;
+    padding:35px;
+    font-size: 27px;
+}
+nav a:hover {
+    background-color: white;
+    color: #B5763C;
+}
+#hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: -100px;
+}
+#hero-box{
+    grid-column: 1/4;
+    grid-row: 1/4;
+    z-index: -1;
+}
+#hero-img{
+    width: 100%;
+}
+#hero-msg{
+    grid-column: 2/3;
+    grid-row:2/3;
+    margin-top:100px;
+    align-content: center;
+    color: white;
+    font-family: "Cinzel";
+}
+#hero-msg h1{
+    text-align: center;
+}
+main{
+    text-align: center;
+}
+.border{
+    background-color: #031e04 ;
+    border: solid 10px #021b02ed;
+}
+.grid-section{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.one-p{
+    grid-column: 1/2;
+    background-color: #FAF2EB;
+    color: black;
+    border-radius: 3em;
+    align-content: center;
+}
+.two-sec{
+    grid-column: 2/3;
+    width: 95%;
+    border-radius: 3em; 
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.third-sec{
+    grid-column: 3/4;
+    color: black;
+    background-color: #FAF2EB;
+    border-radius: 3em;
+    align-content: center;
+}
+.book{
+    grid-column: 1/2;
+    background-color: #FAF2EB;
+    color: black;
+    font-size: 30px;
+    border-radius: 3em;
+}
+
+
+footer{
+    background-color: #FAF2EB;
+    color: #B5763C;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color: #B5763C;
+    text-decoration: none;
+}
+footer a:hover{
+    background-color: white;
+    color: #B5763C;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
