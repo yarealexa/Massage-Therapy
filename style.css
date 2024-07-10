@@ -57,13 +57,15 @@ nav a:hover {
 #hero-msg{
     grid-column: 2/3;
     grid-row:2/3;
-    margin-top:100px;
     align-content: center;
-    color: white;
-    font-family: "Cinzel";
 }
 #hero-msg h1{
     text-align: center;
+}
+.home-title{
+    color: white;
+    font-family: "Cinzel";
+    font-size: 60px;
 }
 main{
     text-align: center;
