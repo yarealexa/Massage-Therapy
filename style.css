@@ -317,10 +317,11 @@ body {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
     margin-left: 0.5em;
-    color: #B5763C;
-    background-color: white;
+    color: white;
+    background-color: #B5763C;
     font-family: 'cinzel';
     font-size: medium;
+    border: #B5763C;
   }
   #feedback {
     background-color: #B5763C;
