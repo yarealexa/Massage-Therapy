@@ -166,7 +166,8 @@ footer p a:hover{
     margin: 100px 0;
 }
 .contact{
-    color:#E9C46A;
+    background-color: #B5763C;
+    color:#FAF2EB;
     font-size: 25px;
     padding: 15px 30px;
     margin-top: 50px;
@@ -175,6 +176,6 @@ footer p a:hover{
     text-decoration: underline;
 }
 section a:hover{
-    background-color: #B5763C;
+    background-color: #E9C46A;
     color: white;
 }
