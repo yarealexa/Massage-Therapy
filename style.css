@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@400..900&display=swap');
 
 body{
+    height: 100%;
     background-color: white;
     font-family: "Cinzel";
     font-size: 22px;
@@ -73,8 +74,8 @@ main{
     text-align: center;
 }
 .border{
-    background-color: #031e04 ;
-    border: solid 10px #021b02ed;
+    background-color: #FAF2EB ;
+    border: solid 10px #B5763C;
 }
 .grid-section{
     display: grid;
@@ -82,23 +83,19 @@ main{
 }
 .one-p{
     grid-column: 1/2;
-    background-color: #FAF2EB;
     color: black;
-    border-radius: 3em;
     align-content: center;
 }
 .two-sec{
     grid-column: 2/3;
-    width: 95%;
-    border-radius: 3em; 
-    padding-top: 20px;
-    padding-left: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 35px auto;
+    border:solid 10px #FAF2EB;
 }
 .third-sec{
     grid-column: 3/4;
     color: black;
-    background-color: #FAF2EB;
-    border-radius: 3em;
     align-content: center;
 }
 .book{
@@ -106,9 +103,7 @@ main{
     background-color: #FAF2EB;
     color: black;
     font-size: 30px;
-    border-radius: 3em;
 }
-
 
 footer{
     background-color: #FAF2EB;
@@ -132,4 +127,54 @@ footer p{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+
+.service-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+.massage-card{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 100px 0px;
+}
+.lymphatic-card{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin: 100px 0;
+}
+.sport-card{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin: 100px 0;
+}
+.cupping-card{
+    grid-column: 1/2;
+    grid-row: 2/3 ;
+    margin: 100px 0;
+}
+.therapeutic-card{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 100px 0;
+}
+.aroma-card{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin: 100px 0;
+}
+.contact{
+    color:#E9C46A;
+    font-size: 25px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 10px;
+    text-decoration: underline;
+}
+section a:hover{
+    background-color: #B5763C;
+    color: white;
 }
