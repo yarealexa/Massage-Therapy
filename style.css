@@ -129,6 +129,15 @@ footer p a:hover{
     text-decoration: underline;
 }
 
+.title-service{
+  font-size: 75px;
+  text-decoration: underline;
+}
+
+.service-text{
+  padding: auto;
+}
+
 .service-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
